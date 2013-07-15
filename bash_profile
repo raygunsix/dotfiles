@@ -15,16 +15,6 @@ export EDITOR=/usr/bin/vim
 export GIT_PS1_SHOWDIRTYSTATE=true
 export PS1="\[$IGreen\]\n\h:\w \[$Yellow\](\$(~/.rvm/bin/rvm-prompt v p g s)) \[$Yellow\]\$(__git_ps1 [%s]) \[$BIGreen\]\n→ \[$Color_Off\] "
 
-# set up env vars
-export OPSCODE_USER=""
-export OPSCODE_ORGNAME=""
-
-export AWS_ACCESS_KEY_ID=""
-export AWS_SECRET_ACCESS_KEY=""
-
-export TERREMARK_USERNAME=""
-export TERREMARK_PASSWORD=""
-
 # set path
 export PATH=$PATH:/usr/local/sbin:/usr/local/git/bin
 
