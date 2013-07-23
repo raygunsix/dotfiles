@@ -17,6 +17,7 @@ export PS1="\[$IGreen\]\n\h:\w \[$Yellow\](\$(~/.rvm/bin/rvm-prompt v p g s)) \[
 
 # set path
 export PATH=$PATH:/usr/local/sbin:/usr/local/git/bin
+export PATH="/opt/chef/embedded/bin:$PATH"
 
 # load RVM function
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
