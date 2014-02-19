@@ -9,3 +9,6 @@
 [user]
   name = Chris Reid
   email = chris@raygun6.com
+#[rebase]
+#  alias.up = pull --rebase
+#  branch.autosetuprebase = always
