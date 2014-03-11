@@ -19,6 +19,9 @@ export PS1="\[$IGreen\]\n\h:\w \[$Yellow\]\$(__git_ps1 [%s]) \[$BIGreen\]\n→ \
 export PATH=$PATH:/usr/local/sbin:/usr/local/git/bin
 export PATH="/opt/chef/embedded/bin:$PATH"
 
+# set up rbenv
+eval "$(rbenv init -)"
+
 if [ -f ~/.bashrc ]; then
    source ~/.bashrc
 fi
