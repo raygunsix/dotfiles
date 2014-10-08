@@ -8,5 +8,6 @@
   "draw_white_space": "all",
   "translate_tabs_to_spaces": true,
   "tab_size": 2,
-  "rulers": [80]
+  "rulers": [80],
+  "folder_exclude_patterns": [".bundle", ".git", ".gems"]
 }
