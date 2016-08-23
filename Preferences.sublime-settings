@@ -6,7 +6,8 @@
 	[
 		".bundle",
 		".git",
-		".gems"
+		".gems",
+		".terraform"
 	],
 	"font_face": "Inconsolata",
 	"font_size": 16.0,
