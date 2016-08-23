@@ -1,6 +1,6 @@
 require 'rake'
 
-sublime_settings_dir = "/Users/#{ENV['USER']}/Library/Application Support/Sublime Text 2/Packages/User"
+sublime_settings_dir = "/Users/#{ENV['USER']}/Library/Application Support/Sublime Text 3/Packages/User"
 
 task :install do
   Dir['*'].each do |file|
