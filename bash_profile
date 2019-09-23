@@ -18,9 +18,6 @@ export PS1="\[$IGreen\]\n\h:\w \[$Yellow\]\$(__git_ps1 [%s]) \[$BIGreen\]\n→ \
 # set path
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/git/bin:$PATH
 
-# set up rbenv
-eval "$(rbenv init -)"
-
 if [ -f ~/.bashrc ]; then
    source ~/.bashrc
 fi
