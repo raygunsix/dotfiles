@@ -4,3 +4,4 @@ cask_args appdir: '/Applications'
 tap 'homebrew/cask'
 
 cask 'iterm2'
+cask 'visual-studio-code'
