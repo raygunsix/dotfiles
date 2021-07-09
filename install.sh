@@ -23,4 +23,8 @@ killall Dock
 
 # Configure zsh
 
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+if [[ -z "${ZSH}" ]]; then
+    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+else
+    echo "Oh-My-ZSH already installed. Skipping..." 
+fi
