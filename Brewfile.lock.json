@@ -1,0 +1,32 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/cask": {
+        "revision": "95bff8b5f584fe79d948c19c4639198867490b57"
+      }
+    },
+    "cask": {
+      "iterm2": {
+        "version": "3.4.8",
+        "options": {
+          "full_name": "iterm2",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "big_sur": {
+        "HOMEBREW_VERSION": "3.2.1",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "d24842f4144fff92be2c696393f30c9cb27489fb",
+        "CLT": "12.5.1.0.1.1623191612",
+        "Xcode": "12.5.1",
+        "macOS": "11.4"
+      }
+    }
+  }
+}
