@@ -4,12 +4,9 @@ Install CLI tools for Xcode
 
 ` CLI tools for Xcode`
 
-Install Homebrew
+## Install
 
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+Execute the install script
 
-Install Homebrew packages
-
-`brew bundle`
-
+`./install.sh`
 

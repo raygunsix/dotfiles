@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 # install packages
 tap 'homebrew/cask'
 
+brew 'dockutil'
 brew 'pyenv'
 
 cask 'iterm2'
