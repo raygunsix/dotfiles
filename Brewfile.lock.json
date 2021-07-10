@@ -3,6 +3,9 @@
     "tap": {
       "homebrew/cask": {
         "revision": "b7466dfcd06550d86b037dbe44555fc6d22c1029"
+      },
+      "homebrew/cask-fonts": {
+        "revision": "ae18a6d38e196a27ce305d91888b14c022f7c272"
       }
     },
     "cask": {
@@ -19,6 +22,24 @@
         "version": "1.58.0",
         "options": {
           "full_name": "visual-studio-code",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "font-inconsolata-for-powerline": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-inconsolata-for-powerline",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "font-menlo-for-powerline": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-menlo-for-powerline",
           "args": {
             "appdir": "/Applications"
           }
@@ -81,7 +102,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.2.1",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "afb049e1a93be868a493f8356cdb12a294e2eaf8",
+        "Homebrew/homebrew-core": "61010500e59b61ce2763c682bda530ebf41834da",
         "CLT": "12.5.1.0.1.1623191612",
         "Xcode": "12.5.1",
         "macOS": "11.4"
