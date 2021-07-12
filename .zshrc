@@ -7,10 +7,12 @@ source $ZSH/oh-my-zsh.sh
 ssh-add -K
 alias ll='ls -lF'
 
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv/shims"
+export PATH="$PYENV_ROOT:$PATH"
+export PIPENV_PYTHON="$PYENV_ROOT/python"
+
 if command -v pyenv 1>/dev/null 2>&1; then
-  export PYENV_ROOT="$HOME/.pyenv/shims"
-  export PATH="$PYENV_ROOT:$PATH"
-  export PIPENV_PYTHON="$PYENV_ROOT/python"
   eval "$(pyenv init -)"
 fi
 
