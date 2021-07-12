@@ -28,3 +28,9 @@ if [[ -z "${ZSH}" ]]; then
 else
     echo "Oh-My-ZSH already installed. Skipping..." 
 fi
+
+if [ ! -f "$HOME/.zshrc" ]; then
+    cat .zshrc > ~/.zshrc
+else
+    echo ".zshrc already exists. Skipping..." 
+fi
