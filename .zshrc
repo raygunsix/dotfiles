@@ -1,7 +1,7 @@
 export ZSH="/Users/chris/.oh-my-zsh"
 ZSH_THEME="agnoster"
 DEFAULT_USER=`whoami`
-plugins=(git)
+plugins=(git zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 ssh-add -K
