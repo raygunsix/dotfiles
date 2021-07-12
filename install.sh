@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+ITERM2_PROFILES_DIR="$HOME/Library/Application Support/iTerm2/DynamicProfiles"
+
 # Install Homebrew
 
 which -s brew
@@ -33,6 +35,14 @@ if [ ! -f "$HOME/.zshrc" ]; then
     cat .zshrc > $HOME/.zshrc
 else
     echo ".zshrc already exists. Skipping..." 
+fi
+
+# iterm2
+
+if [ -d "$ITERM2_PROFILES_DIR" ]; then
+    cat iterm2-profile.json > "$HOME/Library/Application Support/iTerm2/DynamicProfiles/raygunsix-profile.json"
+else
+    echo "No iterm2 profiles dir detected. Skipping..."
 fi
 
 # Other
