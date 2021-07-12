@@ -13,3 +13,5 @@ if command -v pyenv 1>/dev/null 2>&1; then
   export PIPENV_PYTHON="$PYENV_ROOT/python"
   eval "$(pyenv init -)"
 fi
+
+### END OF GENERATED CONFIG ###
