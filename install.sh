@@ -30,7 +30,11 @@ else
 fi
 
 if [ ! -f "$HOME/.zshrc" ]; then
-    cat .zshrc > ~/.zshrc
+    cat .zshrc > $HOME/.zshrc
 else
     echo ".zshrc already exists. Skipping..." 
 fi
+
+# Other
+
+cat .gemrc > $HOME/.gemrc
